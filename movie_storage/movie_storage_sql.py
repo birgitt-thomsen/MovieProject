@@ -3,7 +3,7 @@ Script handles all actions made to the movie database.
 """
 
 from sqlalchemy import create_engine, text
-from MovieProject.api import omdb_api as api_data
+from api import omdb_api as api_data
 from utils.utilities import color_text
 
 # Define the database URL
